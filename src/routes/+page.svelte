@@ -8,6 +8,7 @@
 <main>
 	{#if isReady}
 		<h1 transition:fade>Hello {name}</h1>
+		<p>new commit</p>
 	{/if}
 	<button on:click={() => (isReady = !isReady)}>Fade</button>
 </main>
