@@ -1,4 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+<<<<<<< HEAD
 import { defineConfig } from 'vitest/config';
 import { fileURLToPath, URL } from 'node:url';
 
@@ -12,4 +13,10 @@ export default defineConfig({
 			'@': fileURLToPath(new URL('./src', import.meta.url))
 		}
 	}
+=======
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+	plugins: [sveltekit()]
+>>>>>>> master
 });
